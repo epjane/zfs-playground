@@ -120,7 +120,7 @@ For all exercises, the Zpool should be called `zfspool`. When the pool is create
 
 ## FAQ
 
-### Q: Why SHA1 and now SHA512?
+### Q: Why SHA1 and not SHA512?
 
 A: It's a UI consideration--I want checksums a little smaller, which will be easier to read.  Keep in mind that the context is "simulating a filesystem", versus "code that is being run in production".  But hey--if this is useful enough that you're looking at using this in production(!), come talk to me and I'll see what I can do. :-)
 
